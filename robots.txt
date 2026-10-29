@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nashikunfiltered.co.in/sitemap.xml
