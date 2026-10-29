@@ -53,7 +53,7 @@ img { display: block; max-width: 100%; height: auto; }
    ============================================================ */
 .mono-top-bar {
   border-bottom: 1px solid var(--mono-hairline);
-  padding: 10px 0;
+  padding: 12px 0;
   font-size: 0.74rem;
   letter-spacing: 0.03em;
   font-weight: 700;
@@ -164,7 +164,7 @@ img { display: block; max-width: 100%; height: auto; }
    2. ICONIC CENTER MASTHEAD
    ============================================================ */
 .mono-masthead {
-  padding: 18px 0 14px 0;
+  padding: 26px 0 18px 0;
   border-bottom: 1px solid var(--mono-hairline);
 }
 .mono-masthead-grid {
@@ -183,8 +183,8 @@ img { display: block; max-width: 100%; height: auto; }
 }
 .mono-vignette-icon {
   flex-shrink: 0;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -197,7 +197,7 @@ img { display: block; max-width: 100%; height: auto; }
 }
 .mono-logo-main {
   font-family: var(--font-serif);
-  font-size: clamp(2.0rem, 4.2vw, 3.2rem);
+  font-size: clamp(2.2rem, 4.8vw, 3.8rem);
   font-weight: 900;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -205,12 +205,12 @@ img { display: block; max-width: 100%; height: auto; }
   color: var(--mono-black);
 }
 .mono-logo-sub {
-  font-size: 0.74rem;
+  font-size: 0.76rem;
   font-weight: 600;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--mono-text-muted);
-  margin-top: 6px;
+  margin-top: 9px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -242,7 +242,7 @@ img { display: block; max-width: 100%; height: auto; }
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  gap: 18px;
   font-family: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, Arial, sans-serif !important;
   font-size: 0.72rem;
   font-weight: 700;
@@ -268,7 +268,7 @@ img { display: block; max-width: 100%; height: auto; }
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  padding: 7px 5px;
+  padding: 9px 6px;
   color: #222222;
   text-decoration: none;
   font-family: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, Arial, sans-serif !important;
