@@ -1,122 +1,100 @@
 {
   "daemon_version": "1.0",
   "node_host": "pi.local (Debian 13 ARM64 · Nashik Road)",
-  "last_refreshed_ist": "2026-10-29 21:42:08 IST",
-  "refresh_time_short": "09:42 PM IST",
+  "last_refreshed_ist": "2026-10-30 00:00:15 IST",
+  "refresh_time_short": "12:00 AM IST",
   "rail_influx": {
     "status": "online",
     "station_name": "Nashik Road (NK)",
     "coordinates": "20.00°N, 73.82°E",
-    "last_updated_time": "09:42 PM IST",
-    "train_count_next_4h": 13,
-    "total_deboarded_pax_est": 5280,
-    "down_line_mumbai_trains": 7,
-    "up_line_inbound_trains": 4,
-    "surge_level": "FLUID FLOW",
-    "surge_badge": "FLUID",
+    "last_updated_time": "12:00 AM IST",
+    "train_count_next_4h": 17,
+    "total_deboarded_pax_est": 4960,
+    "down_line_mumbai_trains": 6,
+    "up_line_inbound_trains": 10,
+    "surge_level": "NIGHT CLEARANCE",
+    "surge_badge": "CLEAR",
     "transit_intel": {
-      "bytco_circle_status": "Station forecourt & Bytco moving smoothly.",
-      "dwarka_corridor_delay": "Nominal commute time",
-      "recommended_local_bypass": "Direct route via NH60 is clear.",
+      "bytco_circle_status": "Roads deserted. Zero street-level congestion.",
+      "dwarka_corridor_delay": "Nominal (8–10 min run)",
+      "recommended_local_bypass": "Direct NH60 / Bytco Flyover is wide open.",
       "reporting_node": "Nashik Road Field Bureau · Central Railway Junction"
     },
     "trains": [
       {
-        "number": "15648",
-        "name": "GHY LTT EXPRESS",
-        "route_display": "GHY → Mumbai Lokmanya Tilak",
+        "number": "12111",
+        "name": "CSMT AMI SF EXP",
+        "route_display": "Mumbai CSMT → Amravati",
+        "direction": "DOWN (From Mumbai/Pune)",
+        "arrival_time": "00:41",
+        "delay": "+26 Mins",
+        "platform": "Platform 2",
+        "deboard_ratio_pct": 10,
+        "est_deboarded_pax": 160
+      },
+      {
+        "number": "12809",
+        "name": "HOWRAH MAIL",
+        "route_display": "Mumbai CSMT → Kolkata Howrah",
+        "direction": "DOWN (From Mumbai/Pune)",
+        "arrival_time": "00:53",
+        "delay": "+26 Mins",
+        "platform": "Platform 2",
+        "deboard_ratio_pct": 10,
+        "est_deboarded_pax": 160
+      },
+      {
+        "number": "12132",
+        "name": "SAINAGAR DR EXP",
+        "route_display": "Sainagar Shirdi → Mumbai Dadar",
         "direction": "UP (Towards Mumbai)",
-        "arrival_time": "21:28",
-        "delay": "+53 Hrs.",
+        "arrival_time": "00:52",
+        "delay": "On Time",
         "platform": "Platform 3",
         "deboard_ratio_pct": 10,
         "est_deboarded_pax": 160
       },
       {
-        "number": "12109",
-        "name": "PANCHAVATI EXP",
-        "route_display": "Mumbai CSMT → Manmad Jn",
+        "number": "17057",
+        "name": "DEVAGIRI EXPRESS",
+        "route_display": "Mumbai CSMT → Lingampalli (Hyderabad)",
         "direction": "DOWN (From Mumbai/Pune)",
-        "arrival_time": "21:41",
-        "delay": "+9 Mins",
-        "platform": "Platform 1",
-        "deboard_ratio_pct": 45,
-        "est_deboarded_pax": 720
-      },
-      {
-        "number": "17668",
-        "name": "LTT NED EXPRESS",
-        "route_display": "Mumbai Lokmanya Tilak → Hazur Sahib Nanded",
-        "direction": "DOWN (From Mumbai/Pune)",
-        "arrival_time": "21:46",
-        "delay": "+55 Mins",
-        "platform": "Platform 2",
-        "deboard_ratio_pct": 10,
-        "est_deboarded_pax": 160
-      },
-      {
-        "number": "17612",
-        "name": "RAJYA RANI EXP",
-        "route_display": "Mumbai CSMT → Hazur Sahib Nanded",
-        "direction": "DOWN (From Mumbai/Pune)",
-        "arrival_time": "22:28",
-        "delay": "+25 Mins",
-        "platform": "Platform 1",
-        "deboard_ratio_pct": 45,
-        "est_deboarded_pax": 720
-      },
-      {
-        "number": "12105",
-        "name": "VIDARBHA EXPRESS",
-        "route_display": "Mumbai CSMT → G",
-        "direction": "DOWN (From Mumbai/Pune)",
-        "arrival_time": "22:32",
-        "delay": "+10 Mins",
-        "platform": "Platform 2",
-        "deboard_ratio_pct": 10,
-        "est_deboarded_pax": 160
-      },
-      {
-        "number": "12137",
-        "name": "PUNJAB MAIL",
-        "route_display": "Mumbai CSMT → FZR",
-        "direction": "DOWN (From Mumbai/Pune)",
-        "arrival_time": "22:55",
+        "arrival_time": "00:57",
         "delay": "On Time",
         "platform": "Platform 2",
-        "deboard_ratio_pct": 10,
-        "est_deboarded_pax": 160
-      },
-      {
-        "number": "11114",
-        "name": "BSL-DVL EXP",
-        "route_display": "Bhusawal Jn → DVL",
-        "direction": "CROSS-COUNTRY",
-        "arrival_time": "23:16",
-        "delay": "+56 Mins",
-        "platform": "Platform 4",
-        "deboard_ratio_pct": 10,
-        "est_deboarded_pax": 160
-      },
-      {
-        "number": "12151",
-        "name": "LTT SHM SF EXP",
-        "route_display": "Mumbai Lokmanya Tilak → Shalimar",
-        "direction": "DOWN (From Mumbai/Pune)",
-        "arrival_time": "23:40",
-        "delay": "On Time",
-        "platform": "Platform 2",
-        "deboard_ratio_pct": 10,
-        "est_deboarded_pax": 160
+        "deboard_ratio_pct": 20,
+        "est_deboarded_pax": 320
       },
       {
         "number": "12860",
         "name": "GITANJALI EXP",
         "route_display": "Kolkata Howrah → Mumbai CSMT",
         "direction": "UP (Towards Mumbai)",
-        "arrival_time": "00:40",
-        "delay": "+35 Hrs.",
+        "arrival_time": "01:17",
+        "delay": "+12 Hrs.",
         "platform": "Platform 3",
+        "deboard_ratio_pct": 10,
+        "est_deboarded_pax": 160
+      },
+      {
+        "number": "11002",
+        "name": "NANDIGRAM EXP",
+        "route_display": "Balharshah → Mumbai CSMT",
+        "direction": "UP (Towards Mumbai)",
+        "arrival_time": "01:22",
+        "delay": "On Time",
+        "platform": "Platform 3",
+        "deboard_ratio_pct": 10,
+        "est_deboarded_pax": 160
+      },
+      {
+        "number": "18029",
+        "name": "LTT SHALIMAR EXP",
+        "route_display": "Mumbai Lokmanya Tilak → Shalimar",
+        "direction": "DOWN (From Mumbai/Pune)",
+        "arrival_time": "01:23",
+        "delay": "+3 Mins",
+        "platform": "Platform 2",
         "deboard_ratio_pct": 10,
         "est_deboarded_pax": 160
       },
@@ -132,12 +110,56 @@
         "est_deboarded_pax": 1200
       },
       {
+        "number": "12322",
+        "name": "KOLKATA MAIL",
+        "route_display": "Mumbai CSMT → Kolkata Howrah",
+        "direction": "DOWN (From Mumbai/Pune)",
+        "arrival_time": "01:45",
+        "delay": "+10 Mins",
+        "platform": "Platform 2",
+        "deboard_ratio_pct": 10,
+        "est_deboarded_pax": 160
+      },
+      {
+        "number": "12174",
+        "name": "UDYOG NAGRI EXP",
+        "route_display": "MBDP → Mumbai Lokmanya Tilak",
+        "direction": "UP (Towards Mumbai)",
+        "arrival_time": "01:52",
+        "delay": "On Time",
+        "platform": "Platform 3",
+        "deboard_ratio_pct": 10,
+        "est_deboarded_pax": 160
+      },
+      {
+        "number": "12810",
+        "name": "HWH CSMT MAIL",
+        "route_display": "Kolkata Howrah → Mumbai CSMT",
+        "direction": "UP (Towards Mumbai)",
+        "arrival_time": "02:46",
+        "delay": "+26 Hrs.",
+        "platform": "Platform 3",
+        "deboard_ratio_pct": 10,
+        "est_deboarded_pax": 160
+      },
+      {
+        "number": "18030",
+        "name": "SHM LTT EXPRESS",
+        "route_display": "Shalimar → Mumbai Lokmanya Tilak",
+        "direction": "UP (Towards Mumbai)",
+        "arrival_time": "03:06",
+        "delay": "+04 Hrs.",
+        "platform": "Platform 3",
+        "deboard_ratio_pct": 10,
+        "est_deboarded_pax": 160
+      },
+      {
         "number": "11044",
         "name": "BUI DR EXP",
         "route_display": "BUI → Mumbai Dadar",
         "direction": "UP (Towards Mumbai)",
-        "arrival_time": "03:01",
-        "delay": "+36 Hrs.",
+        "arrival_time": "04:29",
+        "delay": "+04 Hrs.",
         "platform": "Platform 3",
         "deboard_ratio_pct": 10,
         "est_deboarded_pax": 160
@@ -147,11 +169,22 @@
         "name": "GKP CSMT SPECIAL",
         "route_display": "Gorakhpur Jn → Mumbai CSMT",
         "direction": "UP (Towards Mumbai)",
-        "arrival_time": "04:17",
-        "delay": "+17 Hrs.",
+        "arrival_time": "05:00",
+        "delay": "+00 Hrs.",
         "platform": "PF TBA",
         "deboard_ratio_pct": 75,
         "est_deboarded_pax": 1200
+      },
+      {
+        "number": "22358",
+        "name": "GAYA LTT SUP EXP",
+        "route_display": "GAYA → Mumbai Lokmanya Tilak",
+        "direction": "UP (Towards Mumbai)",
+        "arrival_time": "05:24",
+        "delay": "+42 Hrs.",
+        "platform": "Platform 3",
+        "deboard_ratio_pct": 10,
+        "est_deboarded_pax": 160
       },
       {
         "number": "04104",
@@ -163,6 +196,17 @@
         "platform": "PF TBA",
         "deboard_ratio_pct": 10,
         "est_deboarded_pax": 160
+      },
+      {
+        "number": "01144",
+        "name": "DNR LTT SPL",
+        "route_display": "DNR → Mumbai Lokmanya Tilak",
+        "direction": "UP (Towards Mumbai)",
+        "arrival_time": "11:10",
+        "delay": "+00 Hrs.",
+        "platform": "PF TBA",
+        "deboard_ratio_pct": 10,
+        "est_deboarded_pax": 160
       }
     ]
   },
@@ -170,12 +214,12 @@
     "status": "online",
     "terroir_zone": "Gangapur-Dindori Terroir Basin",
     "coordinates": "20.01°N, 73.74°E · 592m MSL",
-    "current_temp_c": 25.1,
+    "current_temp_c": 23.8,
     "day_high_c": 31.2,
     "night_low_c": 21.6,
     "diurnal_delta_c": 9.6,
-    "humidity_pct": 64,
-    "pressure_hpa": 946.8,
+    "humidity_pct": 72,
+    "pressure_hpa": 946.7,
     "solar_radiation_w_m2": 0.0,
     "viticulture_status": "Vine Pruning & Monsoon Vegetative Growth",
     "valley_mist": "Clear Sahyadri Sun",
@@ -196,7 +240,7 @@
   },
   "kumbh_radar": {
     "status": "online",
-    "countdown_days": 2,
+    "countdown_days": 1,
     "target_date": "October 31, 2026",
     "event_title": "Dhwajarohan (Flag Hoisting) at Ramkund & Kushavarta",
     "budget_total_cr": 34732,
@@ -228,11 +272,11 @@
         "status": "Platform 4-5 Extension"
       }
     ],
-    "editorial_commentary": "T-minus 2 days. Ring road flyover piers across Godavari at 52% completion; river de-silting on schedule."
+    "editorial_commentary": "T-minus 1 days. Ring road flyover piers across Godavari at 52% completion; river de-silting on schedule."
   },
   "mandi": {
     "status": "online",
-    "exchange_date": "October 29, 2026",
+    "exchange_date": "October 30, 2026",
     "primary_markets": "Lasalgaon APMC & Nashik Main Mandi",
     "commodities": [
       {
@@ -271,7 +315,7 @@
     "audio_file": "audio/morning_dispatch.mp3",
     "voice": "en-GB-RyanNeural (Monocle Tone)",
     "duration": "1m 15s",
-    "headline": "The Morning Wire: Thursday, October 29 · Diurnal Swing & Valley Flow",
-    "transcript": "Good morning. This is the Nashik Morning Dispatch for Thursday, October 29, broadcast from our station node at Nashik Road. Across the valley, dawn brings a cool 25.1 degrees Celsius, with an expected diurnal swing of 9.6 degrees. Downstream at the Godavari, reservoir discharge from Gangapur is steady, and Ramkund waters are clear. At Nashik Road railway station, traffic flow is currently fluid flow, with direct arterial access into Dwarka moving smoothly. If you are heading out for breakfast, Shamsundar in the Old Industrial Area has their fresh rassa ready from seven sharp. This is Nashik Unfiltered. Have a productive day in the Deccan."
+    "headline": "The Morning Wire: Friday, October 30 · Diurnal Swing & Valley Flow",
+    "transcript": "Good morning. This is the Nashik Morning Dispatch for Friday, October 30, broadcast from our station node at Nashik Road. Across the valley, dawn brings a cool 23.8 degrees Celsius, with an expected diurnal swing of 9.6 degrees. Downstream at the Godavari, reservoir discharge from Gangapur is steady, and Ramkund waters are clear. At Nashik Road railway station, traffic flow is currently night clearance, with direct arterial access into Dwarka moving smoothly. If you are heading out for breakfast, Shamsundar in the Old Industrial Area has their fresh rassa ready from seven sharp. This is Nashik Unfiltered. Have a productive day in the Deccan."
   }
 }

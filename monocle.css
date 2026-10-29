@@ -164,7 +164,7 @@ img { display: block; max-width: 100%; height: auto; }
    2. ICONIC CENTER MASTHEAD
    ============================================================ */
 .mono-masthead {
-  padding: 32px 0 20px 0;
+  padding: 18px 0 14px 0;
   border-bottom: 1px solid var(--mono-hairline);
 }
 .mono-masthead-grid {
@@ -183,8 +183,8 @@ img { display: block; max-width: 100%; height: auto; }
 }
 .mono-vignette-icon {
   flex-shrink: 0;
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -197,7 +197,7 @@ img { display: block; max-width: 100%; height: auto; }
 }
 .mono-logo-main {
   font-family: var(--font-serif);
-  font-size: clamp(2.4rem, 5.5vw, 4.4rem);
+  font-size: clamp(2.0rem, 4.2vw, 3.2rem);
   font-weight: 900;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -205,12 +205,12 @@ img { display: block; max-width: 100%; height: auto; }
   color: var(--mono-black);
 }
 .mono-logo-sub {
-  font-size: 0.8rem;
+  font-size: 0.74rem;
   font-weight: 600;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--mono-text-muted);
-  margin-top: 10px;
+  margin-top: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -268,7 +268,7 @@ img { display: block; max-width: 100%; height: auto; }
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  padding: 9px 5px;
+  padding: 7px 5px;
   color: #222222;
   text-decoration: none;
   font-family: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, Arial, sans-serif !important;
@@ -367,18 +367,18 @@ img { display: block; max-width: 100%; height: auto; }
    4. LEAD INTRO SECTION
    ============================================================ */
 .mono-lead-section {
-  padding: 36px 0 44px 0;
+  padding: 16px 0 18px 0;
   border-bottom: 1px solid var(--mono-hairline);
 }
 .mono-breadcrumb {
-  font-size: 0.74rem;
+  font-size: 0.70rem;
   color: var(--mono-text-muted);
-  margin-bottom: 18px;
+  margin-bottom: 8px;
 }
 .mono-lead-layout {
   display: grid;
   grid-template-columns: 1fr 340px;
-  gap: 48px;
+  gap: 36px;
   align-items: start;
 }
 .mono-section-black-block,
@@ -387,20 +387,20 @@ img { display: block; max-width: 100%; height: auto; }
   background: var(--mono-black);
   color: #FFF;
   font-family: var(--font-serif);
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.12em;
-  padding: 5px 16px;
+  padding: 3px 12px;
   text-transform: uppercase;
-  margin-bottom: 22px;
+  margin-bottom: 10px;
 }
 .mono-lead-text,
 .mono-hero-deck {
   font-family: var(--font-serif);
-  font-size: 1.35rem;
-  line-height: 1.55;
+  font-size: 1.15rem;
+  line-height: 1.45;
   color: #222;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   max-width: 760px;
 }
 .mono-lead-text a,
@@ -415,13 +415,13 @@ img { display: block; max-width: 100%; height: auto; }
 .mono-attribution {
   font-family: var(--font-serif);
   font-style: italic;
-  font-size: 0.95rem;
+  font-size: 0.82rem;
   color: var(--mono-text-muted);
 }
 
 /* Monocle Page Hero (Archive, History, Almanac, Dispatch Spreads) */
 .mono-page-hero {
-  padding: 40px 0 44px 0;
+  padding: 30px 0 32px 0;
   border-bottom: 1px solid var(--mono-hairline);
   background: var(--mono-bg);
 }
@@ -430,11 +430,11 @@ img { display: block; max-width: 100%; height: auto; }
   background: var(--mono-black);
   color: #FFF;
   font-family: var(--font-serif);
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  padding: 5px 16px;
-  margin-bottom: 22px;
+  padding: 3px 12px;
+  margin-bottom: 14px;
   font-weight: 700;
 }
 .mono-hero-h1 {
@@ -485,42 +485,42 @@ img { display: block; max-width: 100%; height: auto; }
 .mono-callout-card {
   background: var(--mono-navy);
   color: #FFF;
-  padding: 32px 28px;
+  padding: 18px 20px;
   border-radius: 2px;
 }
 .mono-callout-kicker {
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: rgba(255,255,255,0.7);
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   display: flex;
   align-items: center;
   gap: 6px;
 }
 .mono-callout-title {
   font-family: var(--font-serif);
-  font-size: 1.45rem;
+  font-size: 1.2rem;
   font-weight: 700;
   line-height: 1.25;
-  margin-bottom: 14px;
+  margin-bottom: 8px;
 }
 .mono-callout-desc {
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   color: rgba(255,255,255,0.8);
-  line-height: 1.5;
-  margin-bottom: 22px;
+  line-height: 1.4;
+  margin-bottom: 12px;
 }
 .mono-callout-btn {
   display: inline-block;
   background: #FFF;
   color: var(--mono-navy);
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 10px 20px;
+  padding: 7px 16px;
   border-radius: 2px;
   transition: all 0.2s ease;
 }
@@ -529,10 +529,10 @@ img { display: block; max-width: 100%; height: auto; }
   color: var(--mono-black);
 }
 .mono-callout-footer {
-  margin-top: 24px;
-  padding-top: 18px;
+  margin-top: 12px;
+  padding-top: 10px;
   border-top: 1px solid rgba(255,255,255,0.15);
-  font-size: 0.68rem;
+  font-size: 0.64rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: rgba(255,255,255,0.6);
@@ -545,7 +545,7 @@ img { display: block; max-width: 100%; height: auto; }
    Directly matching the screenshot!
    ============================================================ */
 .mono-guides-section {
-  padding: 44px 0 64px 0;
+  padding: 16px 0 54px 0;
   border-bottom: 1px solid var(--mono-hairline);
 }
 .mono-guides-grid {
