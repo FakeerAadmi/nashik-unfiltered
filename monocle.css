@@ -195,6 +195,22 @@ img { display: block; max-width: 100%; height: auto; }
 .mono-masthead-center {
   text-align: center;
 }
+.mono-masthead-emblem-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.mono-masthead-emblem-mark {
+  height: 34px;
+  width: auto;
+  display: inline-block;
+  opacity: 0.95;
+  transition: transform 0.2s ease;
+}
+.mono-masthead-emblem-mark:hover {
+  transform: scale(1.05);
+}
 .mono-logo-main {
   font-family: var(--font-serif);
   font-size: clamp(2.2rem, 4.8vw, 3.8rem);
@@ -777,14 +793,16 @@ img { display: block; max-width: 100%; height: auto; }
 .mono-footer-logo-wrap {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   margin-bottom: 12px;
 }
 .mono-footer-logo-icon {
-  width: 22px;
-  height: 22px;
-  color: #FFFFFF;
+  height: 24px;
+  width: auto;
+  max-width: 55px;
+  object-fit: contain;
   flex-shrink: 0;
+  display: inline-block;
 }
 .mono-footer-brand h3,
 .mono-footer-brand-title {

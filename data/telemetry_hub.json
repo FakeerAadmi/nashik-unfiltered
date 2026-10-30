@@ -1,13 +1,13 @@
 {
   "daemon_version": "1.0",
   "node_host": "pi.local (Debian 13 ARM64 · Nashik Road)",
-  "last_refreshed_ist": "2026-10-30 14:21:08 IST",
-  "refresh_time_short": "02:21 PM IST",
+  "last_refreshed_ist": "2026-10-30 14:28:10 IST",
+  "refresh_time_short": "02:28 PM IST",
   "rail_influx": {
     "status": "online",
     "station_name": "Nashik Road (NK)",
     "coordinates": "20.00°N, 73.82°E",
-    "last_updated_time": "02:21 PM IST",
+    "last_updated_time": "02:28 PM IST",
     "train_count_next_4h": 16,
     "total_deboarded_pax_est": 2560,
     "down_line_mumbai_trains": 10,
@@ -33,17 +33,6 @@
         "est_deboarded_pax": 160
       },
       {
-        "number": "11204",
-        "name": "MAO NGP EXPRESS",
-        "route_display": "MAO → Nagpur Jn",
-        "direction": "CROSS-COUNTRY",
-        "arrival_time": "14:13",
-        "delay": "+35 Hrs.",
-        "platform": "Platform 2",
-        "deboard_ratio_pct": 10,
-        "est_deboarded_pax": 160
-      },
-      {
         "number": "15946",
         "name": "DBRG LTT EXP",
         "route_display": "DBRG → Mumbai Lokmanya Tilak",
@@ -51,6 +40,17 @@
         "arrival_time": "14:16",
         "delay": "+41 Mins",
         "platform": "Platform 3",
+        "deboard_ratio_pct": 10,
+        "est_deboarded_pax": 160
+      },
+      {
+        "number": "11204",
+        "name": "MAO NGP EXPRESS",
+        "route_display": "MAO → Nagpur Jn",
+        "direction": "CROSS-COUNTRY",
+        "arrival_time": "14:17",
+        "delay": "+39 Hrs.",
+        "platform": "Platform 2",
         "deboard_ratio_pct": 10,
         "est_deboarded_pax": 160
       },
@@ -132,17 +132,6 @@
         "est_deboarded_pax": 160
       },
       {
-        "number": "11011",
-        "name": "CSMT DHULE EXP",
-        "route_display": "Mumbai CSMT → DHI",
-        "direction": "DOWN (From Mumbai/Pune)",
-        "arrival_time": "15:59",
-        "delay": "+9 Mins",
-        "platform": "Platform 1",
-        "deboard_ratio_pct": 10,
-        "est_deboarded_pax": 160
-      },
-      {
         "number": "01123",
         "name": "LTT MAU SPL",
         "route_display": "Mumbai Lokmanya Tilak → MAU",
@@ -150,6 +139,17 @@
         "arrival_time": "16:02",
         "delay": "+50 Mins",
         "platform": "PF TBA",
+        "deboard_ratio_pct": 10,
+        "est_deboarded_pax": 160
+      },
+      {
+        "number": "11011",
+        "name": "CSMT DHULE EXP",
+        "route_display": "Mumbai CSMT → DHI",
+        "direction": "DOWN (From Mumbai/Pune)",
+        "arrival_time": "16:07",
+        "delay": "+17 Mins",
+        "platform": "Platform 1",
         "deboard_ratio_pct": 10,
         "est_deboarded_pax": 160
       },
@@ -169,8 +169,8 @@
         "name": "LTT GAYA SF EXP",
         "route_display": "Mumbai Lokmanya Tilak → GAYA",
         "direction": "DOWN (From Mumbai/Pune)",
-        "arrival_time": "16:19",
-        "delay": "+7 Mins",
+        "arrival_time": "16:35",
+        "delay": "+23 Mins",
         "platform": "Platform 2",
         "deboard_ratio_pct": 10,
         "est_deboarded_pax": 160

@@ -32,7 +32,10 @@ function injectMobileNav() {
   drawer.id = 'mobileNav';
   drawer.innerHTML = `
     <div class="mono-drawer-header">
-      <div class="mono-drawer-brand">NASHIK UNFILTERED</div>
+      <div class="mono-drawer-brand">
+        <img src="assets/images/nashik_unfiltered_new_emblem_dark.png" alt="Nashik Unfiltered Emblem" style="height: 18px; width: auto; vertical-align: middle; margin-right: 8px;">
+        NASHIK UNFILTERED
+      </div>
       <div class="mono-drawer-close" onclick="closeMobileNav()" aria-label="Close Navigation">✕</div>
     </div>
 
