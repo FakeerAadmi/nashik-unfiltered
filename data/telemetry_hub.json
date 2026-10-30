@@ -1,16 +1,16 @@
 {
   "daemon_version": "1.0",
   "node_host": "pi.local (Debian 13 ARM64 · Nashik Road)",
-  "last_refreshed_ist": "2026-10-30 13:07:08 IST",
-  "refresh_time_short": "01:07 PM IST",
+  "last_refreshed_ist": "2026-10-30 13:14:06 IST",
+  "refresh_time_short": "01:14 PM IST",
   "rail_influx": {
     "status": "online",
     "station_name": "Nashik Road (NK)",
     "coordinates": "20.00°N, 73.82°E",
-    "last_updated_time": "01:07 PM IST",
-    "train_count_next_4h": 13,
-    "total_deboarded_pax_est": 2080,
-    "down_line_mumbai_trains": 4,
+    "last_updated_time": "01:14 PM IST",
+    "train_count_next_4h": 15,
+    "total_deboarded_pax_est": 2400,
+    "down_line_mumbai_trains": 6,
     "up_line_inbound_trains": 7,
     "surge_level": "FLUID FLOW",
     "surge_badge": "FLUID",
@@ -21,17 +21,6 @@
       "reporting_node": "Nashik Road Field Bureau · Central Railway Junction"
     },
     "trains": [
-      {
-        "number": "12072",
-        "name": "JAN SHATABDI",
-        "route_display": "HNL → Mumbai CSMT",
-        "direction": "UP (Towards Mumbai)",
-        "arrival_time": "13:00",
-        "delay": "+18 Mins",
-        "platform": "Platform 3",
-        "deboard_ratio_pct": 10,
-        "est_deboarded_pax": 160
-      },
       {
         "number": "22184",
         "name": "SAKET EXPRESS",
@@ -44,12 +33,23 @@
         "est_deboarded_pax": 160
       },
       {
+        "number": "12072",
+        "name": "JAN SHATABDI",
+        "route_display": "HNL → Mumbai CSMT",
+        "direction": "UP (Towards Mumbai)",
+        "arrival_time": "13:09",
+        "delay": "+27 Mins",
+        "platform": "Platform 3",
+        "deboard_ratio_pct": 10,
+        "est_deboarded_pax": 160
+      },
+      {
         "number": "11120",
         "name": "IGP MEMU",
         "route_display": "Bhusawal Jn → IGP",
         "direction": "CROSS-COUNTRY",
-        "arrival_time": "13:18",
-        "delay": "+6 Mins",
+        "arrival_time": "13:30",
+        "delay": "+18 Mins",
         "platform": "Platform 4",
         "deboard_ratio_pct": 10,
         "est_deboarded_pax": 160
@@ -114,20 +114,9 @@
         "name": "BBS LTT S F",
         "route_display": "BBS → Mumbai Lokmanya Tilak",
         "direction": "UP (Towards Mumbai)",
-        "arrival_time": "14:36",
-        "delay": "+26 Hrs.",
+        "arrival_time": "14:40",
+        "delay": "+30 Hrs.",
         "platform": "Platform 3",
-        "deboard_ratio_pct": 10,
-        "est_deboarded_pax": 160
-      },
-      {
-        "number": "01045",
-        "name": "LTT AYC SF SPL",
-        "route_display": "Mumbai Lokmanya Tilak → AYC",
-        "direction": "DOWN (From Mumbai/Pune)",
-        "arrival_time": "14:46",
-        "delay": "+46 Hrs.",
-        "platform": "PF TBA",
         "deboard_ratio_pct": 10,
         "est_deboarded_pax": 160
       },
@@ -143,12 +132,45 @@
         "est_deboarded_pax": 160
       },
       {
+        "number": "01045",
+        "name": "LTT AYC SF SPL",
+        "route_display": "Mumbai Lokmanya Tilak → AYC",
+        "direction": "DOWN (From Mumbai/Pune)",
+        "arrival_time": "15:05",
+        "delay": "+05 Hrs.",
+        "platform": "PF TBA",
+        "deboard_ratio_pct": 10,
+        "est_deboarded_pax": 160
+      },
+      {
+        "number": "11015",
+        "name": "SHC AMRIT BHARAT",
+        "route_display": "Mumbai Lokmanya Tilak → SHC",
+        "direction": "DOWN (From Mumbai/Pune)",
+        "arrival_time": "15:10",
+        "delay": "On Time",
+        "platform": "Platform 2",
+        "deboard_ratio_pct": 10,
+        "est_deboarded_pax": 160
+      },
+      {
+        "number": "01123",
+        "name": "LTT MAU SPL",
+        "route_display": "Mumbai Lokmanya Tilak → MAU",
+        "direction": "DOWN (From Mumbai/Pune)",
+        "arrival_time": "15:12",
+        "delay": "On Time",
+        "platform": "PF TBA",
+        "deboard_ratio_pct": 10,
+        "est_deboarded_pax": 160
+      },
+      {
         "number": "01144",
         "name": "DNR LTT SPL",
         "route_display": "DNR → Mumbai Lokmanya Tilak",
         "direction": "UP (Towards Mumbai)",
-        "arrival_time": "18:59",
-        "delay": "+49 Hrs.",
+        "arrival_time": "19:20",
+        "delay": "+10 Hrs.",
         "platform": "PF TBA",
         "deboard_ratio_pct": 10,
         "est_deboarded_pax": 160

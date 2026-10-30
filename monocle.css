@@ -745,123 +745,142 @@ img { display: block; max-width: 100%; height: auto; }
 }
 
 /* ============================================================
-   8. MONOCLE EDITORIAL FOOTER (Twilight Goda Ghats Scenery)
+   8. HERALD-INSPIRED SCENIC EDITORIAL FOOTER (Royal Azure Blue & Full Bleed Scenery)
    ============================================================ */
 .mono-footer {
-  background: #081628;
-  color: #F4F2EC;
-  border-top: 2px solid var(--mono-black);
-  padding: 64px 0 0 0;
-  font-size: 0.82rem;
+  background: #0448A8;
+  background: linear-gradient(180deg, #0241A0 0%, #054DAE 100%);
+  color: #FFFFFF;
+  border-top: none;
+  padding: 72px 0 0 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 0.90rem;
   position: relative;
   overflow: hidden;
 }
 .mono-footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: 40px;
-  margin-bottom: 36px;
+  grid-template-columns: 1.8fr 1fr 1fr 1fr;
+  gap: 48px;
+  margin-bottom: 56px;
 }
-.mono-footer-brand h3,
-.mono-footer-logo {
-  font-family: var(--font-serif);
-  font-size: 1.55rem;
-  font-weight: 900;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-bottom: 12px;
-  line-height: 1.15;
+.mono-footer-brand {
+  max-width: 360px;
+}
+.mono-footer-logo-wrap {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-bottom: 16px;
+}
+.mono-footer-logo-icon {
+  width: 26px;
+  height: 26px;
+  color: #FFFFFF;
+  flex-shrink: 0;
+}
+.mono-footer-brand h3,
+.mono-footer-logo {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+  margin: 0;
+  line-height: 1.2;
 }
 .mono-footer-brand p,
 .mono-footer-tagline {
-  color: #A0B5CC;
-  max-width: 340px;
+  color: rgba(255, 255, 255, 0.82);
   line-height: 1.6;
-  font-size: 0.82rem;
-  margin: 0 0 20px 0;
+  font-size: 0.90rem;
+  font-weight: 400;
+  margin: 0 0 24px 0;
 }
 .mono-footer-socials {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
 }
 .mono-footer-socials a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 4px;
-  background: rgba(255, 255, 255, 0.08);
-  color: #E2E8F0;
-  transition: all 0.2s ease;
+  color: #FFFFFF;
+  opacity: 0.9;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+  text-decoration: none;
 }
 .mono-footer-socials a:hover {
-  background: rgba(255, 255, 255, 0.2);
-  color: #FFFFFF;
+  opacity: 1;
   transform: translateY(-2px);
 }
 .mono-footer-col h4 {
-  font-size: 0.74rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 0.95rem;
+  font-weight: 600;
   color: #FFFFFF;
-  margin-bottom: 16px;
-  padding-bottom: 6px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 0 0 20px 0;
+  padding: 0;
+  border-bottom: none;
+  text-transform: none;
+  letter-spacing: 0;
 }
 .mono-footer-col ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .mono-footer-col li {
-  margin-bottom: 9px;
+  margin-bottom: 13px;
 }
 .mono-footer-col a {
-  color: #9DB4CC;
+  color: rgba(255, 255, 255, 0.80);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 400;
   transition: color 0.15s ease;
+  display: inline-block;
 }
 .mono-footer-col a:hover {
   color: #FFFFFF;
-  text-decoration: underline;
+  text-decoration: none;
+}
+.mono-footer-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 0 0 24px 0;
+  width: 100%;
 }
 .mono-footer-bottom {
-  padding: 20px 0 28px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 0 0 36px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #829AB3;
-  font-size: 0.74rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.86rem;
+  font-weight: 400;
 }
 .mono-footer-scenery {
-  position: relative;
   width: 100%;
+  margin: 0;
+  padding: 0;
   line-height: 0;
-  margin-top: 10px;
-}
-.mono-footer-scenery::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100px;
-  background: linear-gradient(to bottom, #081628 0%, rgba(8, 22, 40, 0.7) 40%, transparent 100%);
-  pointer-events: none;
-  z-index: 2;
+  overflow: hidden;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent;
 }
 .mono-footer-scenery img {
   width: 100%;
   height: auto;
-  max-height: 380px;
+  max-height: 480px;
   object-fit: cover;
   object-position: center bottom;
   display: block;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 /* Responsive */
