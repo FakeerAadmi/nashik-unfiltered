@@ -2,11 +2,11 @@
   "status": "online",
   "station_name": "Nashik Road (NK)",
   "coordinates": "20.00°N, 73.82°E",
-  "last_updated_time": "02:28 PM IST",
-  "train_count_next_4h": 16,
-  "total_deboarded_pax_est": 2560,
-  "down_line_mumbai_trains": 10,
-  "up_line_inbound_trains": 5,
+  "last_updated_time": "03:00 PM IST",
+  "train_count_next_4h": 14,
+  "total_deboarded_pax_est": 2240,
+  "down_line_mumbai_trains": 9,
+  "up_line_inbound_trains": 4,
   "surge_level": "FLUID FLOW",
   "surge_badge": "FLUID",
   "transit_intel": {
@@ -17,67 +17,12 @@
   },
   "trains": [
     {
-      "number": "15018",
-      "name": "GKP LTT EXP",
-      "route_display": "Gorakhpur Jn → Mumbai Lokmanya Tilak",
-      "direction": "UP (Towards Mumbai)",
-      "arrival_time": "14:08",
-      "delay": "+53 Mins",
-      "platform": "Platform 3",
-      "deboard_ratio_pct": 10,
-      "est_deboarded_pax": 160
-    },
-    {
-      "number": "15946",
-      "name": "DBRG LTT EXP",
-      "route_display": "DBRG → Mumbai Lokmanya Tilak",
-      "direction": "UP (Towards Mumbai)",
-      "arrival_time": "14:16",
-      "delay": "+41 Mins",
-      "platform": "Platform 3",
-      "deboard_ratio_pct": 10,
-      "est_deboarded_pax": 160
-    },
-    {
-      "number": "11204",
-      "name": "MAO NGP EXPRESS",
-      "route_display": "MAO → Nagpur Jn",
-      "direction": "CROSS-COUNTRY",
-      "arrival_time": "14:17",
-      "delay": "+39 Hrs.",
-      "platform": "Platform 2",
-      "deboard_ratio_pct": 10,
-      "est_deboarded_pax": 160
-    },
-    {
-      "number": "11055",
-      "name": "GODAN EXPRESS",
-      "route_display": "Mumbai Lokmanya Tilak → Gorakhpur Jn",
-      "direction": "DOWN (From Mumbai/Pune)",
-      "arrival_time": "14:27",
-      "delay": "+12 Mins",
-      "platform": "Platform 2",
-      "deboard_ratio_pct": 10,
-      "est_deboarded_pax": 160
-    },
-    {
-      "number": "01143",
-      "name": "LTT DANAPUR SPL",
-      "route_display": "Mumbai Lokmanya Tilak → DNR",
-      "direction": "DOWN (From Mumbai/Pune)",
-      "arrival_time": "14:30",
-      "delay": "+03 Hrs.",
-      "platform": "PF TBA",
-      "deboard_ratio_pct": 10,
-      "est_deboarded_pax": 160
-    },
-    {
       "number": "11061",
       "name": "LTT JAYNAGAR EXP",
       "route_display": "Mumbai Lokmanya Tilak → JYG",
       "direction": "DOWN (From Mumbai/Pune)",
-      "arrival_time": "14:50",
-      "delay": "On Time",
+      "arrival_time": "14:56",
+      "delay": "+6 Mins",
       "platform": "Platform 2",
       "deboard_ratio_pct": 10,
       "est_deboarded_pax": 160
@@ -105,17 +50,6 @@
       "est_deboarded_pax": 160
     },
     {
-      "number": "01045",
-      "name": "LTT AYC SF SPL",
-      "route_display": "Mumbai Lokmanya Tilak → AYC",
-      "direction": "DOWN (From Mumbai/Pune)",
-      "arrival_time": "15:26",
-      "delay": "+26 Hrs.",
-      "platform": "PF TBA",
-      "deboard_ratio_pct": 10,
-      "est_deboarded_pax": 160
-    },
-    {
       "number": "12071",
       "name": "JANSHATABDTI EXP",
       "route_display": "Mumbai CSMT → HNL",
@@ -123,6 +57,17 @@
       "arrival_time": "15:32",
       "delay": "On Time",
       "platform": "Platform 1",
+      "deboard_ratio_pct": 10,
+      "est_deboarded_pax": 160
+    },
+    {
+      "number": "01045",
+      "name": "LTT AYC SF SPL",
+      "route_display": "Mumbai Lokmanya Tilak → AYC",
+      "direction": "DOWN (From Mumbai/Pune)",
+      "arrival_time": "15:54",
+      "delay": "+54 Hrs.",
+      "platform": "PF TBA",
       "deboard_ratio_pct": 10,
       "est_deboarded_pax": 160
     },
@@ -171,12 +116,45 @@
       "est_deboarded_pax": 160
     },
     {
+      "number": "12617",
+      "name": "MANGLADWEEP EXP",
+      "route_display": "ERS → Delhi Hazrat Nizamuddin",
+      "direction": "CROSS-COUNTRY",
+      "arrival_time": "16:35",
+      "delay": "On Time",
+      "platform": "Platform 2",
+      "deboard_ratio_pct": 10,
+      "est_deboarded_pax": 160
+    },
+    {
+      "number": "14121",
+      "name": "AMRIT BHARAT EXP",
+      "route_display": "SFG → Mumbai Lokmanya Tilak",
+      "direction": "UP (Towards Mumbai)",
+      "arrival_time": "16:52",
+      "delay": "On Time",
+      "platform": "Platform 3",
+      "deboard_ratio_pct": 10,
+      "est_deboarded_pax": 160
+    },
+    {
+      "number": "20153",
+      "name": "CSMT REWA SF",
+      "route_display": "Mumbai CSMT → REWA",
+      "direction": "DOWN (From Mumbai/Pune)",
+      "arrival_time": "17:29",
+      "delay": "+31 Mins",
+      "platform": "Platform 2",
+      "deboard_ratio_pct": 10,
+      "est_deboarded_pax": 160
+    },
+    {
       "number": "01144",
       "name": "DNR LTT SPL",
       "route_display": "DNR → Mumbai Lokmanya Tilak",
       "direction": "UP (Towards Mumbai)",
-      "arrival_time": "19:49",
-      "delay": "+39 Hrs.",
+      "arrival_time": "19:59",
+      "delay": "+49 Hrs.",
       "platform": "PF TBA",
       "deboard_ratio_pct": 10,
       "est_deboarded_pax": 160
