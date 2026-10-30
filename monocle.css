@@ -745,47 +745,75 @@ img { display: block; max-width: 100%; height: auto; }
 }
 
 /* ============================================================
-   8. MONOCLE EDITORIAL FOOTER
+   8. MONOCLE EDITORIAL FOOTER (Twilight Goda Ghats Scenery)
    ============================================================ */
 .mono-footer {
-  background: #FCFCFA;
+  background: #081628;
+  color: #F4F2EC;
   border-top: 2px solid var(--mono-black);
-  padding: 56px 0 36px 0;
+  padding: 64px 0 0 0;
   font-size: 0.82rem;
+  position: relative;
+  overflow: hidden;
 }
 .mono-footer-grid {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
   gap: 40px;
-  margin-bottom: 48px;
+  margin-bottom: 36px;
 }
 .mono-footer-brand h3,
 .mono-footer-logo {
   font-family: var(--font-serif);
-  font-size: 1.5rem;
+  font-size: 1.55rem;
   font-weight: 900;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--mono-black);
+  color: #FFFFFF;
   margin-bottom: 12px;
   line-height: 1.15;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .mono-footer-brand p,
 .mono-footer-tagline {
-  color: var(--mono-text-muted);
-  max-width: 320px;
+  color: #A0B5CC;
+  max-width: 340px;
   line-height: 1.6;
   font-size: 0.82rem;
-  margin: 0;
+  margin: 0 0 20px 0;
+}
+.mono-footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.mono-footer-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #E2E8F0;
+  transition: all 0.2s ease;
+}
+.mono-footer-socials a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+  transform: translateY(-2px);
 }
 .mono-footer-col h4 {
   font-size: 0.74rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  color: #FFFFFF;
   margin-bottom: 16px;
   padding-bottom: 6px;
-  border-bottom: 1px solid var(--mono-black);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .mono-footer-col ul {
   list-style: none;
@@ -794,23 +822,74 @@ img { display: block; max-width: 100%; height: auto; }
   margin-bottom: 9px;
 }
 .mono-footer-col a {
-  color: #444;
+  color: #9DB4CC;
+  transition: color 0.15s ease;
 }
 .mono-footer-col a:hover {
-  color: var(--mono-black);
+  color: #FFFFFF;
   text-decoration: underline;
 }
 .mono-footer-bottom {
-  padding-top: 24px;
-  border-top: 1px solid var(--mono-hairline);
+  padding: 20px 0 28px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--mono-text-muted);
+  color: #829AB3;
   font-size: 0.74rem;
+}
+.mono-footer-scenery {
+  position: relative;
+  width: 100%;
+  line-height: 0;
+  margin-top: 10px;
+}
+.mono-footer-scenery::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: linear-gradient(to bottom, #081628 0%, rgba(8, 22, 40, 0.7) 40%, transparent 100%);
+  pointer-events: none;
+  z-index: 2;
+}
+.mono-footer-scenery img {
+  width: 100%;
+  height: auto;
+  max-height: 380px;
+  object-fit: cover;
+  object-position: center bottom;
+  display: block;
 }
 
 /* Responsive */
+@media (max-width: 900px) {
+  .mono-subnav {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .mono-subnav::-webkit-scrollbar {
+    display: none;
+  }
+  .mono-subnav-links {
+    justify-content: flex-start;
+    padding: 0 16px;
+    gap: 12px;
+    width: max-content;
+  }
+  .mono-subnav-links span.pipe {
+    display: none;
+  }
+  .mono-nav-trigger {
+    padding: 7px 8px;
+    font-size: 0.70rem;
+    white-space: nowrap;
+  }
+}
+
 @media (max-width: 1024px) {
   .mono-guides-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -840,6 +919,69 @@ img { display: block; max-width: 100%; height: auto; }
   }
   .mono-footer-grid {
     grid-template-columns: 1fr;
+  }
+  .mono-footer-bottom {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+}
+
+/* ============================================================
+   MONOCLE POCKET-PRINT STYLESHEET
+   Clean black-and-white typography for field itineraries
+   ============================================================ */
+@media print {
+  body {
+    background: #FFFFFF !important;
+    color: #111111 !important;
+    font-size: 10pt;
+    line-height: 1.45;
+  }
+  .mono-top-bar,
+  .mono-subnav,
+  .mono-drawer,
+  .mono-drawer-backdrop,
+  .mono-footer-scenery,
+  .mono-footer-socials,
+  .mono-subscribe-btn,
+  .mono-menu-trigger,
+  .mono-audio-player-wrap,
+  .mono-callout-btn {
+    display: none !important;
+  }
+  .mono-masthead {
+    border-bottom: 2px solid #111111 !important;
+    padding: 12pt 0 !important;
+  }
+  .mono-logo-main {
+    font-size: 24pt !important;
+    color: #111111 !important;
+  }
+  .mono-callout-card {
+    background: #FFFFFF !important;
+    color: #111111 !important;
+    border: 1.5pt solid #111111 !important;
+    padding: 14pt !important;
+  }
+  .mono-callout-title,
+  .mono-callout-kicker {
+    color: #111111 !important;
+  }
+  .mono-footer {
+    background: #FFFFFF !important;
+    color: #111111 !important;
+    border-top: 1.5pt solid #111111 !important;
+    padding: 14pt 0 !important;
+  }
+  .mono-footer-col h4 {
+    color: #111111 !important;
+    border-bottom: 1pt solid #111111 !important;
+  }
+  .mono-footer-col a,
+  .mono-footer-brand p,
+  .mono-footer-bottom {
+    color: #222222 !important;
   }
 }
 

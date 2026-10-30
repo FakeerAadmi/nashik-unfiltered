@@ -415,6 +415,22 @@ function initFoodDirectoryFilter() {
       filterAll();
     });
   });
+
+  // Auto-activate category from URL hash (e.g. food.html#misal or food.html#cafes)
+  function applyHashFilter() {
+    const rawHash = (window.location.hash || '').replace('#', '').toLowerCase();
+    if (!rawHash) return;
+    const targetPill = Array.from(catPills).find(b => b.dataset.filter === rawHash);
+    if (targetPill) {
+      catPills.forEach(b => b.classList.remove('active'));
+      targetPill.classList.add('active');
+      activeCat = rawHash;
+      filterAll();
+    }
+  }
+
+  applyHashFilter();
+  window.addEventListener('hashchange', applyHashFilter);
 }
 
 /* ============================================
