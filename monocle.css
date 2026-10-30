@@ -745,17 +745,23 @@ img { display: block; max-width: 100%; height: auto; }
 }
 
 /* ============================================================
-   8. HERALD-INSPIRED SCENIC EDITORIAL FOOTER (Royal Azure Blue & Full Bleed Scenery)
+   8. HERALD-INSPIRED SCENIC EDITORIAL FOOTER (Immersive Full-Bleed Photograph)
    ============================================================ */
 .mono-footer {
-  background: #0448A8;
-  background: linear-gradient(180deg, #0241A0 0%, #054DAE 100%);
+  position: relative;
+  width: 100%;
+  background-color: #0260C2;
+  background-image: 
+    linear-gradient(180deg, rgba(2, 60, 140, 0.40) 0%, rgba(2, 75, 170, 0.22) 45%, rgba(0, 0, 0, 0) 75%),
+    url('assets/images/nashik_footer_landscape.webp');
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
   color: #FFFFFF;
   border-top: none;
-  padding: 72px 0 0 0;
+  padding: 80px 0 clamp(180px, 22vw, 340px) 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   font-size: 0.90rem;
-  position: relative;
   overflow: hidden;
 }
 .mono-footer-grid {
@@ -774,15 +780,15 @@ img { display: block; max-width: 100%; height: auto; }
   margin-bottom: 16px;
 }
 .mono-footer-logo-icon {
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
   color: #FFFFFF;
   flex-shrink: 0;
 }
 .mono-footer-brand h3,
-.mono-footer-logo {
+.mono-footer-brand-title {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-  font-size: 1.35rem;
+  font-size: 1.40rem;
   font-weight: 700;
   letter-spacing: -0.01em;
   color: #FFFFFF;
@@ -791,7 +797,7 @@ img { display: block; max-width: 100%; height: auto; }
 }
 .mono-footer-brand p,
 .mono-footer-tagline {
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(255, 255, 255, 0.85);
   line-height: 1.6;
   font-size: 0.90rem;
   font-weight: 400;
@@ -835,7 +841,7 @@ img { display: block; max-width: 100%; height: auto; }
   margin-bottom: 13px;
 }
 .mono-footer-col a {
-  color: rgba(255, 255, 255, 0.80);
+  color: rgba(255, 255, 255, 0.82);
   text-decoration: none;
   font-size: 0.88rem;
   font-weight: 400;
@@ -853,34 +859,13 @@ img { display: block; max-width: 100%; height: auto; }
   width: 100%;
 }
 .mono-footer-bottom {
-  padding: 0 0 36px 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.78);
   font-size: 0.86rem;
   font-weight: 400;
-}
-.mono-footer-scenery {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  line-height: 0;
-  overflow: hidden;
-  border: none !important;
-  box-shadow: none !important;
-  background: transparent;
-}
-.mono-footer-scenery img {
-  width: 100%;
-  height: auto;
-  max-height: 480px;
-  object-fit: cover;
-  object-position: center bottom;
-  display: block;
-  border: none !important;
-  outline: none !important;
-  box-shadow: none !important;
 }
 
 /* Responsive */
