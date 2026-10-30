@@ -750,45 +750,46 @@ img { display: block; max-width: 100%; height: auto; }
 .mono-footer {
   position: relative;
   width: 100%;
-  background-color: #0260C2;
+  background-color: #033E8E;
   background-image: 
-    linear-gradient(180deg, rgba(2, 60, 140, 0.40) 0%, rgba(2, 75, 170, 0.22) 45%, rgba(0, 0, 0, 0) 75%),
+    linear-gradient(180deg, rgba(2, 60, 140, 0.20) 0%, rgba(2, 75, 170, 0.08) 50%, rgba(0, 0, 0, 0) 80%),
     url('assets/images/nashik_footer_landscape.webp');
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
   color: #FFFFFF;
   border-top: none;
-  padding: 80px 0 clamp(180px, 22vw, 340px) 0;
+  padding: clamp(38px, 3.5vw, 50px) 0 clamp(110px, 12vw, 165px) 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   font-size: 0.90rem;
   overflow: hidden;
 }
 .mono-footer-grid {
   display: grid;
-  grid-template-columns: 1.8fr 1fr 1fr 1fr;
-  gap: 48px;
-  margin-bottom: 56px;
+  grid-template-columns: minmax(260px, 1fr) repeat(3, auto);
+  column-gap: 52px;
+  align-items: start;
+  margin-bottom: 28px;
 }
 .mono-footer-brand {
-  max-width: 360px;
+  max-width: 320px;
 }
 .mono-footer-logo-wrap {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 .mono-footer-logo-icon {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   color: #FFFFFF;
   flex-shrink: 0;
 }
 .mono-footer-brand h3,
 .mono-footer-brand-title {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-  font-size: 1.40rem;
+  font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: -0.01em;
   color: #FFFFFF;
@@ -797,23 +798,23 @@ img { display: block; max-width: 100%; height: auto; }
 }
 .mono-footer-brand p,
 .mono-footer-tagline {
-  color: rgba(255, 255, 255, 0.85);
-  line-height: 1.6;
-  font-size: 0.90rem;
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.5;
+  font-size: 0.85rem;
   font-weight: 400;
-  margin: 0 0 24px 0;
+  margin: 0 0 16px 0;
 }
 .mono-footer-socials {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 16px;
 }
 .mono-footer-socials a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   color: #FFFFFF;
-  opacity: 0.9;
+  opacity: 0.88;
   transition: opacity 0.18s ease, transform 0.18s ease;
   text-decoration: none;
 }
@@ -821,16 +822,19 @@ img { display: block; max-width: 100%; height: auto; }
   opacity: 1;
   transform: translateY(-2px);
 }
+.mono-footer-col {
+  min-width: 120px;
+}
 .mono-footer-col h4 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   font-weight: 600;
   color: #FFFFFF;
-  margin: 0 0 20px 0;
+  margin: 0 0 14px 0;
   padding: 0;
   border-bottom: none;
   text-transform: none;
-  letter-spacing: 0;
+  letter-spacing: 0.01em;
 }
 .mono-footer-col ul {
   list-style: none;
@@ -838,12 +842,13 @@ img { display: block; max-width: 100%; height: auto; }
   padding: 0;
 }
 .mono-footer-col li {
-  margin-bottom: 13px;
+  margin-bottom: 8px;
+  line-height: 1.35;
 }
 .mono-footer-col a {
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(255, 255, 255, 0.80);
   text-decoration: none;
-  font-size: 0.88rem;
+  font-size: 0.83rem;
   font-weight: 400;
   transition: color 0.15s ease;
   display: inline-block;
@@ -854,8 +859,8 @@ img { display: block; max-width: 100%; height: auto; }
 }
 .mono-footer-divider {
   border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.18);
-  margin: 0 0 24px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.20);
+  margin: 0 0 16px 0;
   width: 100%;
 }
 .mono-footer-bottom {
@@ -864,8 +869,18 @@ img { display: block; max-width: 100%; height: auto; }
   justify-content: space-between;
   align-items: center;
   color: rgba(255, 255, 255, 0.78);
-  font-size: 0.86rem;
+  font-size: 0.80rem;
   font-weight: 400;
+  line-height: 1.4;
+}
+.mono-footer-bottom a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+.mono-footer-bottom a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
 }
 
 /* Responsive */
@@ -910,7 +925,44 @@ img { display: block; max-width: 100%; height: auto; }
     display: none;
   }
   .mono-footer-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(220px, 1fr) repeat(3, auto);
+    column-gap: 28px;
+  }
+}
+@media (max-width: 768px) {
+  .mono-footer {
+    padding: 32px 0 clamp(80px, 14vw, 110px) 0;
+  }
+  .mono-footer-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 14px;
+    margin-bottom: 20px;
+  }
+  .mono-footer-brand {
+    grid-column: 1 / -1;
+    max-width: 100%;
+    margin-bottom: 4px;
+  }
+  .mono-footer-col {
+    grid-column: span 1;
+    min-width: 0;
+  }
+  .mono-footer-col h4 {
+    margin-bottom: 10px;
+    font-size: 0.82rem;
+  }
+  .mono-footer-col li {
+    margin-bottom: 7px;
+  }
+  .mono-footer-col a {
+    font-size: 0.77rem;
+  }
+  .mono-footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 0.76rem;
+    text-align: left;
   }
 }
 @media (max-width: 640px) {
@@ -920,14 +972,6 @@ img { display: block; max-width: 100%; height: auto; }
   }
   .mono-nav-primary-links {
     display: none;
-  }
-  .mono-footer-grid {
-    grid-template-columns: 1fr;
-  }
-  .mono-footer-bottom {
-    flex-direction: column;
-    gap: 8px;
-    text-align: center;
   }
 }
 
